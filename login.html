@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            width: 300px;
+            padding: 20px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 8px;
+            margin: 1px 0 20px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        button:hover {
+            opacity:1;
+        }
+    </style>
+</head>
+<body>
+    <h1>The girl who searched for love</h1>
+    <p>The girl who searched for love had a hard time finding it. She had been through many relationships, but none of them lasted. She wondered what was wrong with her, why she couldn't find someone who would love her for who she was. She decided to try online dating, hoping to meet her soulmate. She created a profile, uploaded some photos, and waited for messages. She received many, but most of them were either rude, boring, or creepy. She felt discouraged and lonely. One day, she saw a message from a guy who seemed different. He was polite, funny, and interested in her hobbies. He asked her out for coffee, and she agreed. They met at a cozy cafe, and hit it off right away. They had a lot in common, and felt a connection. They exchanged phone numbers, and agreed to see each other again. She felt happy and hopeful. Maybe he was the one she had been looking for...</p>
+    <p>Login to continue reading this beautiful content</p>
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="gender"><b>Gender</b></label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <button type="submit">Login</button>
+    </div>
+</body>
+</html>
